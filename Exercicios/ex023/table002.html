@@ -4,52 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
-    <Style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: darkgrey;
-            
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        caption {
-            font-size: 1.5em;
-            font-weight: bold;
-        }
-
-        table {
-            width: 500px;
-            border-collapse: collapse;
-            background-color: white;
-            margin: auto;
-
-        }
-
-        th, td {
-            border: solid 1px black;
-            padding: 10px;
-            font-size: 18px;
-        }
-
-        thead, tfoot {
-            background-color: rgb(31, 30, 30);
-            color: white;
-
-        }
-        
-        td.num {
-            text-align: right;
-            padding-right: 15px;
-        }
-
-        td.total {
-            text-align: center;
-        }
-       
-    </Style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Tabelas grandes</h1>
@@ -57,10 +12,10 @@
     <table>
         <caption>Populações das Unidades Federativas</caption>
         <thead>
-                <tr>
-                    <th>Estado</th>
-                    <th>População</th>
-                </tr>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 120px;">População</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -174,7 +129,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>Total de Habitantes</td>
+                <th scope="row">Total de Habitantes</th>
                 <td class="total"><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
