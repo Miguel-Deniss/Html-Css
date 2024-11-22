@@ -43,7 +43,7 @@ header {
 
 header > .interface {
     display: flex;
-    align-items: center;
+    align-items: centerj;
     justify-content: space-between;
 }
 
@@ -66,6 +66,7 @@ header nav ul{
 header nav ul li {
     display: inline-block;
     padding:0 40px ;
+    
 }
 
 
