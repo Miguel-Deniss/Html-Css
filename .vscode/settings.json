@@ -1,2 +1,61 @@
 {
-}
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "extensions.ignoreRecommendations": true,
+    "typescript.tsserver.log": "off",
+    "editor.stickyScroll.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "files.associations": {
+      ".env.*": "dotenv",
+      ".prettierrc": "json",
+      "*.css": "css",
+      ".dev.vars": "dotenv"
+    },
+    "symbols.files.associations": {
+      "*.module.ts": "nest",
+      "*.guard.ts": "typescript",
+      "*.spec.ts": "ts-test",
+      "*.e2e-spec.ts": "ts-test",
+      "*.mock.ts": "ts-test",
+      "vitest.config.e2e.ts": "vite",
+      ".env.development.local": "gear",
+      ".env.test.local": "gear",
+      ".env.local": "gear",
+      ".env.example": "gear"
+    },
+    "tailwindCSS.experimental.classRegex": [
+      [
+        "tv\\(([^)]*)\\)",
+        "[\"'`]([^\"'`]*).*?[\"'`]"
+      ],
+      "class:\\s*?[\"'`]([^\"'`]*).*?,"
+    ],
+    "editor.parameterHints.enabled": false,
+    "editor.renderLineHighlight": "gutter",
+    "cSpell.language": "en,pt",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "terminal.integrated.showExitAlert": false,
+    "[prisma]": {
+      "editor.formatOnSave": true
+    },
+    "typescript.suggest.autoImports": true,
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
+    "terminal.integrated.env.osx": {
+      "FIG_NEW_SESSION": "1"
+    },
+    "workbench.editor.labelFormat": "short",
+    "editor.fontLigatures": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "mdx": "javascriptreact"
+    }
